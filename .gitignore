@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+/build/
+
+# testing
+/coverage/
+
+# local tooling
+/.playwright-mcp/
+
+# environment and deployment
+.env*
+.vercel
+
+# editor and OS files
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
